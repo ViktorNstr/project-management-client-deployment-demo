@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
+// eslint-disable-next-line no-unused-vars
 import axios from "axios";
 import AddProject from "./../components/AddProject";
 import ProjectCard from "./../components/ProjectCard";
 import projectsService from "../services/projects.service";
 
+// eslint-disable-next-line no-unused-vars
 const API_URL = "http://localhost:5005";
 
 
